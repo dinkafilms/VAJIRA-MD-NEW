@@ -14,7 +14,7 @@ PREFIX: process.env.PREFIX || '.' ,
 FOOTER: process.env.FOOTER=== undefined ? '‌👨‍💻 NADEEN POORNA 👨‍💻': process.env.FOOTER,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
 MAX_SIZE: 500, 
-ALIVE:  process.env.ALIVE  || ''  ,    
+ALIVE:  process.env.ALIVE  || 'I'm Dark Cybers Bot'  ,    
 OWNER_REACT:  process.env.OWNER_REACT  || true  ,
 ADMIN_EVENT:  process.env.ADMIN_EVENT  || true  ,   
 AUTO_BLOCK:  process.env.AUTO_BLOCK  || true  ,        
@@ -39,7 +39,7 @@ WELCOME: process.env.WELCOME || false  ,
 HEROKU_API_KEY: process.env.HEROKU_API_KEY === undefined ? '' : process.env.HEROKU_API_KEY,    
 HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HEROKU_APP_NAME,         
 LOGO: process.env.LOGO || `https://telegra.ph/file/c7ce95554df8fcfa85680.jpg` ,
-COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,    
+COMMAND_TYPE: process.env.COMMAND_TYPE || 'nonbutton' ,    
 ANTI_DELETE : process.env.ANTI_DELETE || false ,
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '94711451319' : process.env.DELETEMSGSENDTO        
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '94779483535' : process.env.DELETEMSGSENDTO        
 };
